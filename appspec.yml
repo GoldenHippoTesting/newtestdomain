@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: ./
-  destination: /var/www/vhosts/newtestdomain.com/
+    destination: /var/www/vhosts/newtestdomain.com/
 hooks:
    AfterInstall:
      - location: post_install.sh
